@@ -1,0 +1,21 @@
+ GNU nano 6.2                                                                                   /home/k8s/.kube/config                                                                                             
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJQzcyeHpsVjhZODB3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TXpBNE1URXdNakV4TXpGYUZ>
+    server: https://172.31.33.93:6443
+  name: kubernetes
+contexts:
+- context:
+    cluster: kubernetes
+    user: kubernetes-admin
+  name: kubernetes-admin@kubernetes
+current-context: kubernetes-admin@kubernetes
+kind: Config
+preferences: {}
+users:
+- name: kubernetes-admin
+  user:
+    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURJVENDQWdtZ0F3SUJBZ0lJYUFsRDdYaG40T1F3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TXpBNE1URXdNakV4TXpGYUZ3MH>
+    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcFFJQkFBS0NBUUVBNkFucE81SVlFb1diVGR2WTBZUEFCMVBGMnRFTTFDKzN5N0FqTGtXZUJQV28vejVxCjR4di95b1cyS0NlYnVMMkE1bEdOVlRMKzFuS2Fkdm5RbkthTWVUVFFDbTZaQm>
+
